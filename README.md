@@ -1,0 +1,25 @@
+# ClouderaQuickStartVirtualBoxHadoop
+Tutorial on setting up Cloudera (hadoop) single node on Virtual Box
+
+##Virtual Box, Cloudera quick start notes
+> Virtual Box allows running a different operating system, client, on a host computer. In this example a Windows 10 home edition has the Virtual Box setup with the disc image.  The disc image is linux Centos with Cloudera, one of the HDFS options, on it.  
+> 
+> In short, this creates a single node for testing and learning HDFS (Hadoop File System) on which is accessable from a PC. 
+> 
+> Both downloads can be found from their respective sites, FREE. 
+  * http://www.cloudera.com/downloads.html    -->  select Quickstarts
+    * As of Aug. 18th,2016, only the older cloudera quickstart, CDH 5.7, has the VB image
+  * http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html
+> 
+  * **Note in Virtual Box.**
+    * Make sure to use FILE and from the pull down, IMPORT to bring the Cloudera disk image.
+      * Using add button will cause errors.
+    * When starting up Cloudera in Virtual Box(VB), it will go through a setup screen.  Once the initial setup is done, click the esc button on the keyboard to load the actual linux cloudera.  (Hope that saves somebody the time of looking it up!)
+    * In Virtual Box, under Devices, set both shared clipboard and Drag and drop to bidirectional.
+       * The Drag and Drop is great for transfering files into VB but requires extra settings to work the other way.
+ > 
+  *  **Note in Cloudera on the VB**
+    * Terminal window easy access icon at the top of the window.
+    * HUE and File manager are the main two things used in the web browser.
+       * Maximize the window to see File Manager under the HUE as it is way to the right.
+    * Updating the linux system in the VB was necessary for one of the problems.  This also caused changes in the windows so the auto sizing doesn't work as good, along with other changes.  This means extra scrolling when viewing different things in the VB.
