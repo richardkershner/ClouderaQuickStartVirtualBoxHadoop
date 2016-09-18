@@ -2,8 +2,10 @@
 Tutorial on setting up Cloudera (hadoop) single node on Virtual Box
 
 ##Virtual Box, Cloudera quick start notes
-> Virtual Box allows running a different operating system, client, on a host computer. In this example a Windows 10 home edition has the Virtual Box setup with the disc image.  The disc image is linux Centos with Cloudera, one of the HDFS options, on it.  
-> 
+> Virtual Box allows running a different operating system, client, on a host computer. In this example a Windows 10 home edition has the Virtual Box setup with the disc image.  The disc image is linux Centos with Cloudera, one of the HDFS options, on it. On my Virtual Box I also have Horton's Sandbox which I like because it defaults to letting you access it through your PCs web browser, a more common appearance of real life use.
+> http://hortonworks.com/products/sandbox/#downloads
+> Select Hortonworks Sandbox on a VM and then the DOWNLOAD FOR VIRTUALBOX
+> Also note I have Ubuntu installed on Virtual Box, with hadoop single node... but that is a lengthy process and would need it's own set of instructions.
 > In short, this creates a single node for testing and learning HDFS (Hadoop File System) on which is accessable from a PC. 
 > 
 > Both downloads can be found from their respective sites, FREE. 
