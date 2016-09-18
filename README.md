@@ -8,7 +8,8 @@ Tutorial on setting up Cloudera (hadoop) single node on Virtual Box
 > 
 > Both downloads can be found from their respective sites, FREE. 
   * http://www.cloudera.com/downloads.html    -->  select Quickstarts
-    * As of Aug. 18th,2016, only the older cloudera quickstart, CDH 5.7, has the VB image
+    * For the platform Select Virtual Box
+    * Before Cloudera finalized their build you had to click the pull down and select an older version.
   * http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html
 > 
   * **Note in Virtual Box.**
